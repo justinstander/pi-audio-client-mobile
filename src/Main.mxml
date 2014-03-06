@@ -8,6 +8,9 @@ Pi Audio Mobile (Android/iOS) Client
 			   xmlns:s="library://ns.adobe.com/flex/spark"
 			   xmlns:piaudio="com.stander.piaudio.*"
 			   applicationDPI="160">
+	
+	<fx:Style source="mobile.css"/>
+	
 	<piaudio:View width="100%"
 				  height="100%"/>
 </s:Application>
