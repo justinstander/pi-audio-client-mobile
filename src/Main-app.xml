@@ -154,6 +154,11 @@
 		<image114x114>Icon114.png</image114x114>
 		<image120x120>Icon120.png</image120x120>
 		<image128x128>Icon128.png</image128x128>
+		<image144x144>Icon144.png</image144x144>
+		<image152x152>Icon152.png</image152x152>
+		<image512x512>Icon512.png</image512x512>
+		<image732x412>Icon732x412.png</image732x412>
+		<image1024x1024>Icon1024.png</image1024x1024>
 	</icon>
 
 	<!-- Whether the application handles the update when a user double-clicks an update version
