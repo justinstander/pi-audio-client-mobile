@@ -101,7 +101,7 @@
 
         <!-- The render mode for the app (either auto, cpu, gpu, or direct). Optional. Default auto -->
 
-        <renderMode>direct</renderMode>
+        <renderMode>gpu</renderMode>
 
         <!-- Whether the default direct mode rendering context allocates storage for depth and stencil buffers.  Optional.  Default false. -->
         <!-- <depthAndStencil></depthAndStencil> -->
@@ -136,30 +136,25 @@
 
 	<!-- The icon the system uses for the application. For at least one resolution,
 	specify the path to a PNG file included in the AIR package. Optional. -->
-	<!-- <icon>
-		<image16x16></image16x16>
-		<image29x29></image29x29>
-		<image32x32></image32x32>
-		<image36x36></image36x36>
-		<image40x40></image40x40>
-		<image48x48></image48x48>
-		<image50x50></image50x50>
-		<image57x57></image57x57>
-		<image58x58></image58x58>
-		<image72x72></image72x72>
-		<image76x76></image76x76>
-		<image80x80></image80x80>
-		<image96x96></image96x96>
-		<image100x100></image100x100>
-		<image114x114></image114x114>
-		<image120x120></image120x120>
-		<image128x128></image128x128>
-		<image144x144></image144x144>
-		<image152x152></image152x152>
-		<image512x512></image512x512>
-		<image732x412></image732x412>
-		<image1024x1024></image1024x1024>
-	</icon> -->
+	<icon>
+		<image16x16>Icon16.png</image16x16>
+		<image29x29>Icon29.png</image29x29>
+		<image32x32>Icon32.png</image32x32>
+		<image36x36>Icon36.png</image36x36>
+		<image40x40>Icon40.png</image40x40>
+		<image48x48>Icon48.png</image48x48>
+		<image50x50>Icon50.png</image50x50>
+		<image57x57>Icon57.png</image57x57>
+		<image58x58>Icon58.png</image58x58>
+		<image72x72>Icon72.png</image72x72>
+		<image76x76>Icon76.png</image76x76>
+		<image80x80>Icon80.png</image80x80>
+		<image96x96>Icon96.png</image96x96>
+		<image100x100>Icon100.png</image100x100>
+		<image114x114>Icon114.png</image114x114>
+		<image120x120>Icon120.png</image120x120>
+		<image128x128>Icon128.png</image128x128>
+	</icon>
 
 	<!-- Whether the application handles the update when a user double-clicks an update version
 	of the AIR file (true), or the default AIR application installer handles the update (false).
